@@ -1,1 +1,3 @@
 # rsha-skriptid
+#git
+#Paigaldamine
