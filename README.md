@@ -43,9 +43,9 @@ apt update
 
 ##### andmebaasid.sh
 * *Skript loob mysql andmebaasi, kasutaja ja annab kasutajale kõik õigused loodud andmebaasile* *
-Andmebaas: Wordpress
-Kasutaja: Wordpressuser
-Kasutaja parool: qwerty
+- Andmebaas: Wordpress
+- Kasutaja: Wordpressuser
+- Kasutaja parool: qwerty
 ###### Manuaalne andmebaasi loomine
 ```
 CREATE DATABASE wordpress;                                          #Loob andmebaasi wordpress
@@ -56,8 +56,8 @@ FLUSH PRIVILEGES;                                                   #laadib toet
 
 ##### pma_paigaldus.sh
 * *Skript instaleerib phpmyadmin paketi* *
-Skripti käivitades tuleb valida Apache2 veebileht
-Skript küsib kas soovite automaatselt luua mysql andmebaasi, kui ei ole teist soovi siis valige 'JAH'
+- Skripti käivitades tuleb valida Apache2 veebileht
+- Skript küsib kas soovite automaatselt luua mysql andmebaasi, kui ei ole teist soovi siis valige 'JAH'
 ###### Manuaalne instaleerimine
 ```
 apt install phpmyadmin -y
@@ -80,3 +80,13 @@ cp /var/www/html/wordpress/wp-config-sample.php /var/www/html/wordpress/wp-confi
 rm -r /var/www/html/latest.tar.gz
 nano /var/www/html/wordpress/wp-config.php     #kuhu panete andmebaasi nime, kasutaja nime ja parooli
 ```
+## Kasutamine
+### Automaatne
+On võimalik käivitada ainult üks skript mis teeb kogu töö ära "veebiserveri_instaleerimine.sh", kui võib juhtuda, et on vaja igat ettappi käivitada eralid.
+### Skriptide käivitamise järiekord
+1. apache-paigaldus.sh
+2. php_paigaldus.sh
+3. mysql-paigaldus.sh
+4. andmebaasid.sh
+5. pma_paigaldus.sh
+6. wordpress_paigaldus.sh
