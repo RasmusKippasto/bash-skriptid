@@ -69,9 +69,9 @@ apt install phpmyadmin -y
 fail asub /var/www/html/wordpress kaustas
 faili nimi muudetakse wp-config.php
 faili sisus asendatakse:
-          "database_name_here" loodud andmebaasiga "wordpress"
-          "username_here" loodud kasutajanimega "wordpressuser"
-          "password_here" loodud kasutaja parooliga "qwerty"
+- "database_name_here" loodud andmebaasiga "wordpress"
+- "username_here" loodud kasutajanimega "wordpressuser"
+- "password_here" loodud kasutaja parooliga "qwerty"
 **Manuaalne instaleerimine**
 ```
 wget https://wordpress.org/latest.tar.gz -P /var/www/html/
