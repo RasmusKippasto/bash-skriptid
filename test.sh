@@ -1,5 +1,8 @@
 #!/bin/bash
 
+apt update
+apt upgrade -y
+
 #APACHE2 PAIGALDUS
 check=$(dpkg-query -W -f='${Status}' apache2 2>/dev/null | grep -c 'ok installed')
 if [ $check -eq 1 ]; then
