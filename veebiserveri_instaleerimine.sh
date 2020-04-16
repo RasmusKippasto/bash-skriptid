@@ -43,6 +43,15 @@ elif [ $MYSQL -eq 1 ]; then
 	mysql
 fi
 
+#MYSQL andmebaasi loomine
+mysql <<EOF
+CREATE DATABASE wordpress;
+CREATE USER 'wordpressuser'@'localhost' IDENTIFIED BY 'qwerty';
+GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpressuser'@'localhost';
+FLUSH PRIVILEGES;
+SHOW DATABASES;
+EOF
+
 #PHPMYADMIN PAIGALDUS
 PHPMA=$(dpkg-query -W -f='{$Status}' phpmyadmin 2>/dev/null | grep -c 'ok installed')
 if [ $PHPMA -eq 0 ]; then
