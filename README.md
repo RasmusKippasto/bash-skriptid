@@ -72,7 +72,7 @@ faili sisus asendatakse:
 - "database_name_here" loodud andmebaasiga "wordpress"
 - "username_here" loodud kasutajanimega "wordpressuser"
 - "password_here" loodud kasutaja parooliga "qwerty"
-**Manuaalne instaleerimine**
+###### Manuaalne instaleerimine
 ```
 wget https://wordpress.org/latest.tar.gz -P /var/www/html/
 tar xzf /var/www/html/latest.tar.gz  -C /var/www/html/
