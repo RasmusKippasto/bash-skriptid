@@ -91,5 +91,5 @@ On võimalik käivitada ainult üks skript mis teeb kogu töö ära "**veebiserv
 5. pma_paigaldus.sh
 6. wordpress_paigaldus.sh
 ### Ligipääsemine
-- Wordpressile saab ligi kirjutades url {serveri IP}/wordpress
-- Myphpadminile saab ligi kirjutades url {serveri IP}/myphpadmin
+- Wordpressile saab ligi kirjutades url **{serveri IP}/wordpress**
+- Myphpadminile saab ligi kirjutades url **{serveri IP}/myphpadmin**
