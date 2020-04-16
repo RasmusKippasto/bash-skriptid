@@ -15,21 +15,21 @@ git config --global core.editor nano
 
 #### Skriptid
 ##### apache-paigaldus.sh
-* *Skript paigaldab Apache2 pageti* *
+* *Skript paigaldab Apache2 pageti
 ###### Manuaalne instaleerimine
 ```
 apt install apache2 -y
 ```
 
 ##### php_paigaldus.sh
-* *Skript paigaldab php7.0, apchge php7.0 mooduli ja php7.0 mysql mooduli paketid* *
+* *Skript paigaldab php7.0, apchge php7.0 mooduli ja php7.0 mysql mooduli paketid
 ###### Manuaalne instaleerimine
 ```
 apt install php7.0 libapache2-mod-php7.0 php7.0-mysql -y
 ```
 
 ##### mysql-paigaldus.sh
-* *Skript paigaldab mysql serveri ja loob kodukausta .my.cnf faili, mis võimaldab käivitada mysql käsku ilma sisse logimiseta* *
+* *Skript paigaldab mysql serveri ja loob kodukausta .my.cnf faili, mis võimaldab käivitada mysql käsku ilma sisse logimiseta
 ###### Manuaalne instaleerimine
 ```
 apt install mysql-server -y
@@ -42,7 +42,7 @@ apt update
 ```
 
 ##### andmebaasid.sh
-* *Skript loob mysql andmebaasi, kasutaja ja annab kasutajale kõik õigused loodud andmebaasile* *
+* *Skript loob mysql andmebaasi, kasutaja ja annab kasutajale kõik õigused loodud andmebaasile
 - Andmebaas: Wordpress
 - Kasutaja: Wordpressuser
 - Kasutaja parool: qwerty
@@ -64,7 +64,7 @@ apt install phpmyadmin -y
 ```
 
 ##### wordpress_paigaldus.sh
-* *Skript tõmbab uusima wordpressi versiooni, pakib selle lahti ja muudab wp-config-sample.php faili* *
+* *Skript tõmbab uusima wordpressi versiooni, pakib selle lahti ja muudab wp-config-sample.php faili
 ###### wp-config-sample.php
 fail asub /var/www/html/wordpress kaustas
 faili nimi muudetakse wp-config.php
