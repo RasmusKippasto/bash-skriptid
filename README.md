@@ -42,7 +42,7 @@ apt update
 ```
 
 ##### andmebaasid.sh
-* *Skript loob mysql andmebaasi, kasutaja ja annab kasutajale kõik õigused loodud andmebaasile*
+*Skript loob mysql andmebaasi, kasutaja ja annab kasutajale kõik õigused loodud andmebaasile*
 - Andmebaas: Wordpress
 - Kasutaja: Wordpressuser
 - Kasutaja parool: qwerty
