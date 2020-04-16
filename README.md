@@ -82,7 +82,7 @@ nano /var/www/html/wordpress/wp-config.php     #kuhu panete andmebaasi nime, kas
 ```
 ## Kasutamine
 ### Automaatne
-On võimalik käivitada ainult üks skript mis teeb kogu töö ära "veebiserveri_instaleerimine.sh", kui võib juhtuda, et on vaja igat ettappi käivitada eralid.
+On võimalik käivitada ainult üks skript mis teeb kogu töö ära "**veebiserveri_instaleerimine.sh**", kui võib juhtuda, et on vaja igat ettappi käivitada eralid.
 ### Skriptide käivitamise järiekord
 1. apache-paigaldus.sh
 2. php_paigaldus.sh
