@@ -1,4 +1,4 @@
-# rsha-skriptid
+# bash-skriptid
 ## Eesmärk
 Skriptide eesmärk on Apache2 veebiserveri instaleerimine Wordpressiga
 #### git
